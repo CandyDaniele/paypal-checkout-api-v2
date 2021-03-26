@@ -1,0 +1,37 @@
+{
+  "name": "apipaypalintegration",
+  "version": "1.0.0",
+  "description": "Studying integration API PayPal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CandyDaniele/integrationApiPayPal.git"
+  },
+  "keywords": [
+    "paypal",
+    "integration",
+    "api"
+  ],
+  "author": "Daniele Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CandyDaniele/integrationApiPayPal/issues"
+  },
+  "homepage": "https://github.com/CandyDaniele/integrationApiPayPal#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.2",
+    "axios": "^0.21.1",
+    "base-64": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "type": "module"
+}
