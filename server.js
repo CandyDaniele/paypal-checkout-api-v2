@@ -13,6 +13,7 @@ app.use(cors({origin:true,credentials: true}));
 app.use(express.json());
 app.use(bodyParser.urlencoded());
 
+app.set('trust proxy', 1);
 app.use(session({
   secret: "secret",
   resave: false,
